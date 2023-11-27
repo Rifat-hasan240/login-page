@@ -1,0 +1,144 @@
+  /* main style start */
+  .main{
+    background-color: gray;
+    max-width: fit-content;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 40px;
+
+}
+
+/* main style end */
+
+
+
+  /* hr style start */
+  
+
+
+
+/* hr style end */
+
+
+/* first name style start */
+.first_name{
+      width: 120px;
+      padding: 20px;
+
+
+}
+
+
+.first_name:focus{
+      
+              background-color: black;
+              color: white;
+              font-size: medium;
+
+
+}  /* first name style end */
+
+
+
+/* last name style start */
+.last_name{
+      width: 120px;
+      padding: 20px;
+
+
+}
+
+.last_name:focus{
+      
+      background-color: black;
+      color: white;
+      font-size: medium;
+
+
+}  /* last name style end */
+
+
+/* mail style start */
+.mail{
+width:285px;
+padding: 20px;
+
+}
+
+.mail:focus{
+      
+      background-color: black;
+      color: white;
+      font-size: medium;
+
+
+}/* mail style end */
+
+
+/* securites style start */
+.securites{
+
+width: 285px;
+padding: 20px;
+
+
+}
+
+.securites:focus{
+
+background-color: black;
+color: white;
+font-size: medium;
+
+
+} /* securites style end */
+
+
+/* button style start */
+button{
+font-size: large;
+width: 250px;
+padding: 15px;
+background-color: #115CC0;
+border: none;
+border-radius: 15px;
+
+}
+
+button:hover{
+   width: 300px;
+   font-size: 2rem;
+   color: white;
+} /* button style end */
+
+/* facbook img style start */
+.fac{
+height: 30px;
+
+
+
+}
+
+
+.fb{
+
+background-color: #0E3270;
+display: inline;
+padding: 10px;
+border-radius: 10px;
+color: white;
+}
+/* facbook img style end */
+
+
+
+
+
+
+
+/* freelancer img style start */
+.fe{
+width: 500px;
+
+}/* freelancer img style end */
