@@ -1,144 +1,101 @@
-  /* main style start */
-  .main{
-    background-color: gray;
-    max-width: fit-content;
-    text-align: center;
-    padding: 5px;
-    margin-left: 20%;
-    margin-top: 40px;
-
+/* common code start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
-
-/* main style end */
-
-
-
-  /* hr style start */
-  
-
-
-
-/* hr style end */
-
-
-/* first name style start */
-.first_name{
-      width: 120px;
-      padding: 20px;
-
-
+html {
+  scroll-behavior: smooth;
+  /* font-family: 'Italianno', cursive; */
+  font-family: "Roboto", sans-serif;
 }
-
-
-.first_name:focus{
-      
-              background-color: black;
-              color: white;
-              font-size: medium;
-
-
-}  /* first name style end */
-
-
-
-/* last name style start */
-.last_name{
-      width: 120px;
-      padding: 20px;
-
-
+body {
+  background-color: #dedede;
 }
-
-.last_name:focus{
-      
-      background-color: black;
-      color: white;
-      font-size: medium;
-
-
-}  /* last name style end */
-
-
-/* mail style start */
-.mail{
-width:285px;
-padding: 20px;
-
+#login {
+  background-color: #fafaff;
+  width: 350px;
+  margin: 200px auto;
+  border-radius: 30px;
 }
+/* common code end */
 
-.mail:focus{
-      
-      background-color: black;
-      color: white;
-      font-size: medium;
-
-
-}/* mail style end */
-
-
-/* securites style start */
-.securites{
-
-width: 285px;
-padding: 20px;
-
-
+/* login page header start */
+.login-page-hearer {
+  background-color: #360d85;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  border-end-end-radius: 0px;
+  border-bottom-left-radius: 0px;
+  /* border-end-start-radius: 100px; */
 }
-
-.securites:focus{
-
-background-color: black;
-color: white;
-font-size: medium;
-
-
-} /* securites style end */
-
-
-/* button style start */
-button{
-font-size: large;
-width: 250px;
-padding: 15px;
-background-color: #115CC0;
-border: none;
-border-radius: 15px;
-
+.login-page-hearer h2 {
+  color: white;
+  font-size: 2rem;
 }
-
-button:hover{
-   width: 300px;
-   font-size: 2rem;
-   color: white;
-} /* button style end */
-
-/* facbook img style start */
-.fac{
-height: 30px;
-
-
-
+.login-page-hearer p {
+  font-family: "Italianno", cursive;
+  color: white;
+  margin-top: 10px;
+  font-size: 2rem;
 }
-
-
-.fb{
-
-background-color: #0E3270;
-display: inline;
-padding: 10px;
-border-radius: 10px;
-color: white;
+/* login page header end */
+/* login page input start */
+.first-icon {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 5px;
+  color: #644e76;
 }
-/* facbook img style end */
-
-
-
-
-
-
-
-/* freelancer img style start */
-.fe{
-width: 500px;
-
-}/* freelancer img style end */
+.login-page-input {
+  text-align: center;
+}
+.login-page-input h2 {
+  margin-bottom: 10px;
+}
+.login-page-item input {
+  width: 300px;
+  height: 10px;
+  padding: 30px;
+  background-color: #f1f1fb;
+  border: none;
+  border-radius: 10px;
+}
+.login-page-input button {
+  width: 300px;
+  background-color: #360d85;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+/* login page input end */
+/* login icon start */
+.login-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-icon {
+  background-color: #360d85;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+/* login icon end */
+/* login footer start */
+.footer-text {
+  text-align: center;
+  color: #948fac;
+}
+.footer-text hr {
+  width: 300px;
+  margin-left: 15px;
+  color: #948fac;
+}
+/* login footer end */
