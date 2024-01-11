@@ -3,99 +3,82 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
 }
 html {
   scroll-behavior: smooth;
-  /* font-family: 'Italianno', cursive; */
-  font-family: "Roboto", sans-serif;
-}
-body {
-  background-color: #dedede;
-}
-#login {
-  background-color: #fafaff;
-  width: 350px;
-  margin: 200px auto;
-  border-radius: 30px;
+  outline: 0;
 }
 /* common code end */
-
-/* login page header start */
-.login-page-hearer {
-  background-color: #360d85;
-  width: 100%;
-  text-align: center;
-  padding: 50px;
-  border-radius: 10px;
-  border-end-end-radius: 0px;
-  border-bottom-left-radius: 0px;
-  /* border-end-start-radius: 100px; */
+/* sign in code start */
+#sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 70vh;
+  margin: 200px auto;
+  background-color: #c4c4c4;
+  box-shadow: 0.1rem 0.1rem 8rem #000;
+  border-radius: 5px;
 }
-.login-page-hearer h2 {
-  color: white;
-  font-size: 2rem;
+#sign-in h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
-.login-page-hearer p {
-  font-family: "Italianno", cursive;
-  color: white;
-  margin-top: 10px;
-  font-size: 2rem;
+.sign-in-input input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
 }
-/* login page header end */
-/* login page input start */
-.first-icon {
+span {
   position: absolute;
-  margin-top: 23px;
-  margin-left: 5px;
-  color: #644e76;
+  margin-left: -50px;
+  line-height: 50px;
+  color: #0b66c3;
 }
-.login-page-input {
-  text-align: center;
-}
-.login-page-input h2 {
+.sign-forget {
   margin-bottom: 10px;
 }
-.login-page-item input {
+a {
+  color: #0b66c3;
+  text-decoration: none;
+}
+.sign-btn button {
   width: 300px;
-  height: 10px;
-  padding: 30px;
-  background-color: #f1f1fb;
+  color: whitesmoke;
+  background-color: #0b66c3;
   border: none;
-  border-radius: 10px;
-}
-.login-page-input button {
-  width: 300px;
-  background-color: #360d85;
-  color: white;
-  font-size: 1.5rem;
-  border: none;
-  padding: 5px;
-  border-radius: 10px;
-}
-/* login page input end */
-/* login icon start */
-.login-icon {
-  display: flex;
-  justify-content: space-evenly;
-}
-.footer-icon {
-  background-color: #360d85;
-  color: white;
   padding: 10px;
-  border-radius: 8px;
-  font-size: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
-/* login icon end */
-/* login footer start */
-.footer-text {
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   text-align: center;
-  color: #948fac;
 }
-.footer-text hr {
+.title::after,
+.title::before {
+  content: "";
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+.sign-footer {
+  color: white;
+  border: 2px solid black;
+  padding: 20px;
   width: 300px;
-  margin-left: 15px;
-  color: #948fac;
+  text-align: center;
+  border-radius: 140px;
 }
-/* login footer end */
+.sign-footer i {
+  color: black;
+}
+/* sign in code end */
