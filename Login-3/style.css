@@ -1,0 +1,110 @@
+/* common code start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+#container {
+  display: flex;
+  width: 1000px;
+  height: 60vh;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0.1rem 0.1rem 0.8rem #000;
+}
+/* common code end */
+/* article section start */
+.article-section {
+  flex: 0.4;
+  padding: 20px;
+}
+.article-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.sign-up-item .item {
+  position: relative;
+}
+.sign-up-item .item input {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+}
+.sign-up-item .item i {
+  position: absolute;
+  right: 10px;
+  line-height: 30px;
+}
+.item1 {
+  display: flex;
+  flex-direction: row;
+}
+.item1 p {
+  margin-left: 5px;
+}
+.item button {
+  width: 150px;
+  border: none;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+.item-footer p {
+  text-align: center;
+  margin-top: 100px;
+}
+.item-footer .f-icon {
+  color: #3e589b;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.item-footer .t-icon {
+  color: #1a97eb;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.item-footer .i-icon {
+  color: #1a97eb;
+  font-size: 1.2rem;
+}
+.item-footer span {
+  font-size: 1.2rem;
+}
+/* article section end */
+/* aside section start */
+.aside-section {
+  background-image: url(img/login-aside-1.png);
+  background-size: cover;
+  flex: 0.5;
+}
+/* aside section end */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+  #container {
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+  }
+  .sign-up-item .item input {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+  }
+  .sign-up-item .item i {
+    visibility: hidden;
+  }
+  .item1 p {
+    margin-top: 15px;
+  }
+
+  .item-footer p {
+    margin-top: 5px;
+  }
+}
